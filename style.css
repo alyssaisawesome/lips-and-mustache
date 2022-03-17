@@ -1,0 +1,33 @@
+h3 {
+  font-size:50px !important;
+  padding-left:500px !important;
+  padding-right:500px !important;
+  }
+  
+  .btn-warning {
+    font-size:20px !important;
+    margin-top:50px;
+    }
+  
+    .btn-warning:hover {
+  background-color: orange;
+  border-color:orange;
+    }
+  
+    canvas {
+      animation-name:example;
+      animation-duration:4s;
+      animation-iteration-count: infinite;
+      margin-top:300px;
+    }
+  
+  @keyframes example {
+  
+      0%   {box-shadow: 1px 1px 38px palevioletred;}
+      25% {box-shadow: 1px 1px 38px plum;}
+      50%  {box-shadow: 1px 1px 38px pink;}
+      75%  {box-shadow: 1px 1px 38px hotpink;}
+      100%  {box-shadow: 1px 1px 38px orchid;}
+
+  
+  }
